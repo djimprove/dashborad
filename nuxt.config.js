@@ -25,7 +25,16 @@ export default {
     '@nuxtjs/eslint-module',
     // https://go.nuxtjs.dev/tailwindcss
     '@nuxtjs/tailwindcss',
+    // fontawsome
+    '@nuxtjs/fontawesome',
   ],
+  fontawesome: {
+    component: 'fa',
+    icons: {
+      solid: true,
+      brands: true,
+    },
+  },
 
   // Modules (https://go.nuxtjs.dev/config-modules)
   modules: [
